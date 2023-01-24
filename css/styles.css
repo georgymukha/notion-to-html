@@ -5,3 +5,9 @@ body {
 .notion {
   display: flex;
 }
+
+@media screen and (orientation: portrait) {
+  .notion {
+    display: block;
+  }
+}
